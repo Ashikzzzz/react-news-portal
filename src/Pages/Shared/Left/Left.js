@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 
 const Left = () => {
+  const [categories, setCategories] = useState([]);
   return (
     <div>
-      <h1>Left</h1>
+      <h1>All Category</h1>
     </div>
   );
 };
