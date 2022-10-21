@@ -14,9 +14,9 @@ const Left = () => {
     <div>
       <h4>All Category{categories.length}</h4>
       {categories.map((category) => (
-        <p key={category.id}>
+        <h6 key={category.id}>
           <Link to={`/category/${category.id}`}>{category.name}</Link>
-        </p>
+        </h6>
       ))}
     </div>
   );
